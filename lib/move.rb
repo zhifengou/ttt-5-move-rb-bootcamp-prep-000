@@ -12,5 +12,8 @@ def input_to_index(num)
   index=(num.to_i)-1
 return index
 end
-def move(board,index,"X")
+def update_array_at_with(array,index,value)
+  array[index]=value
+end
+  
   
