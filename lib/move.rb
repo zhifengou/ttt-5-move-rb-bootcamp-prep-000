@@ -8,4 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(num)
-  
+  number=num.to_i
+return number
+end
+def move(number)
